@@ -27,6 +27,10 @@ python3.12 -m venv .venv-risk
 
 ## Reproduction
 
+### Release validation status
+
+On 2026-10-16, test discovery in the release directory ran 31 tests using the existing local macOS Python environment: 6 failed and 2 raised errors. The output included CBC executable startup failures. This release is therefore **not** claimed to have passed the full test suite on that environment. A working CBC solver and a successful test run are required before relying on reproduced certification results. The full manuscript experiments were not rerun for this upload.
+
 ```bash
 # One-layer Cora/CiteSeer experiments and analysis
 bash scripts/reproduce_cora_citeseer.sh
