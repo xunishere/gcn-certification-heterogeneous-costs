@@ -1,0 +1,75 @@
+# Pi agent task state, logs, and experiment artifacts
+.pi-tasks/
+
+# Local virtual environments
+.venv-risk/
+.venv/
+.venv-*/
+venv/
+env/
+ENV/
+
+# Package, dataset, test, and interpreter caches
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# Python build/package outputs
+build/
+dist/
+*.egg-info/
+
+# Generated experiment outputs and model checkpoints
+results/
+outputs/
+checkpoints/
+
+# LaTeX intermediates (paper sources, figures, and final PDF stay tracked)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.xdv
+
+# Local credentials, tokens, and private keys
+.env
+.env.*
+!.env.example
+!.env.template
+.netrc
+.pypirc
+.npmrc
+.git-credentials
+credentials*.json
+secrets*.json
+tokens*.json
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.kdbx
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
+
+# OS/editor temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*~
